@@ -1623,8 +1623,8 @@ Video
 .our-videos .nacc .thumb .overlay-effect {
   background: rgb(255,104,95);
   background: linear-gradient(105deg, rgba(255,104,95,1) 0%, rgba(255,144,104,1) 100%);
-  display: inline-block;
-  position: absolute;
+ 
+  
   left: 0;
   top: 0;
   border-top-left-radius: 23px;
@@ -1663,7 +1663,7 @@ Video
 }
 
 .our-videos .menu .thumb .inner-content h4 {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 700;
   color: #fff;
   transition: all 0.3s;
@@ -2057,4 +2057,28 @@ responsive
   .contact-us .info span {
     margin-bottom: 20px;
   }
+}
+
+/*self making classes*/
+.services .img{
+
+  width: 40%;
+}
+
+
+/*** Job Listing ***/
+.nav-pills .nav-item .active {
+  border-bottom: 2px solid var(--primary);
+}
+
+.job-item {
+  border: 1px solid transparent;
+  border-radius: 2px;
+  box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+  transition: .5s;
+}
+
+.job-item:hover {
+  border-color: rgba(0, 0, 0, .08);
+  box-shadow: none;
 }
