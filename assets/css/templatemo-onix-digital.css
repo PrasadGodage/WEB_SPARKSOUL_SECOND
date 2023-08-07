@@ -1315,6 +1315,10 @@ Pricing
   padding-top: 120px;
   margin-top: 0px;
 }
+.top-pad {
+  
+  padding-top: 10px !important;
+}
 
 .pricing-tables .section-heading {
   text-align: center;
@@ -1362,9 +1366,22 @@ Pricing
   display: block;
   margin-top: -5px;
 }
+ .website h4 {
+  font-size: 44px;
+  color: #ff695f;
+  font-weight: 700;
+  display: block;
+ 
+  padding-top: 5px;
+  text-align: center;
+}
 
 .pricing-tables .item ul {
-  margin-top: 30px;
+  /*margin-top: 30px;*/
+}
+
+.pricing_padding {
+padding: 10px !important;
 }
 
 .pricing-tables .item ul li {
@@ -1431,12 +1448,29 @@ Subscribe
   text-align: center;
   margin-bottom: 25px;
 }
+.subscribe .inner-content h6{
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 25px;
+}
 
 .subscribe .inner-content form {
   width: 100%;
   height: 80px;
   border-radius: 40px;
   background-color: #fff;
+
+}
+.subscribe .inner-content .web {
+  width: auto;
+  height: 80px;
+  border-radius: 40px;
+  background-color: #fff;
+}
+.web{
+margin: 20px;
+
 }
 
 .subscribe .inner-content form input {
