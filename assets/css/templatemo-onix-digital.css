@@ -379,7 +379,7 @@ header
 
 .header-area .main-nav .nav li:last-child a:hover,
 .header-area .main-nav .nav li:last-child a.active {
-  color: #2a2a2a !important;
+  /* color: #2a2a2a !important; */
 }
 
 .header-area .main-nav .nav li:last-child .main-red-button-hover a:hover,
@@ -608,7 +608,7 @@ header
 }
 
 .header-area.header-sticky {
-  min-height: 80px;
+  min-height: 100px;
 }
 
 .header-area .nav {
@@ -1334,16 +1334,17 @@ Pricing
   z-index: 2;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 60px;
+  padding: 40px;
   text-align: center;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
   border-radius: 45px;
 }
 
 .pricing-tables .item h4 {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #ff695f;
+  padding-bottom: 10px;
 }
 
 .pricing-tables .item em {
@@ -1589,13 +1590,14 @@ Video
   background: rgb(255,104,95);
   background: linear-gradient(105deg, rgba(255,104,95,1) 0%, rgba(255,144,104,1) 100%);
   display: inline-block;
-  position: absolute;
+  /* position: absolute; */
   left: 0;
   top: 0;
   border-top-left-radius: 23px;
   border-bottom-right-radius: 23px;
   padding: 35px 30px;
   text-align: center;
+width:100%;
 }
 
 .our-videos .nacc .thumb .overlay-effect h4 {
@@ -1628,7 +1630,7 @@ Video
 }
 
 .our-videos .menu .thumb .inner-content h4 {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 700;
   color: #fff;
   transition: all 0.3s;
