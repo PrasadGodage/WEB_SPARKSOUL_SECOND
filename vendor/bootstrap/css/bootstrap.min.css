@@ -10721,4 +10721,8 @@ textarea.form-control-lg {
   }
 }
 
-/*# sourceMappingURL=bootstrap.css.map */
+
+@media (min-width: 1200px)
+.col-lg-3 {
+    width: 25%;
+}

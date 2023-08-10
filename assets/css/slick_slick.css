@@ -249,7 +249,7 @@ margin: 10px;
   
   .post-list .single-post h5 {
     color: #222;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 15px;
   }
   
@@ -352,4 +352,95 @@ margin: 10px;
     margin-top: 60px;
     max-width: 200px;
   }
+  .folded-corner:hover .text{
+    visibility: visible;
+    color: #fff;;
+  }
+  .Services-tab{
+    margin-top:20px;
+   
+    float: left;
+    margin: 6px;
+}
   
+  /*
+    nav link items
+  */
+  .folded-corner{
+    padding: 25px 25px;
+    position: relative;
+    font-size: 90%;
+    text-decoration: none;
+    color: #ff695f; 
+    background: transparent;
+    transition: all ease .5s;
+    border: 1px solid #ccc;
+  }
+  .folded-corner:hover{
+    background-color: #ff695f;
+  }
+  
+  /*
+    paper fold corner
+  */
+  
+  .folded-corner:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-style: solid;
+    border-width: 0 0px 0px 0;
+    border-color: #ddd #000;
+    transition: all ease .3s;
+  }
+  
+  /*
+    on li hover make paper fold larger
+  */
+  .folded-corner:hover:before {
+    background-color: #D00003;
+    border-width: 0 50px 50px 0;
+    border-color: #eee #000;
+    
+  }
+  
+  .service_tab_1{
+    background-color: #f6f4f9;
+  }
+  .service_tab_1:hover .fa-icon-image{
+      color: #fff;
+      transform: rotate(360deg) scale(1.5);
+  }
+  
+  
+  .fa-icon-image{
+    color: #ff695f;
+    display: inline-block;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: normal;
+      line-height: 1;
+      font-size-adjust: none;
+      font-stretch: normal;
+      -moz-font-feature-settings: normal;
+      -moz-font-language-override: normal;
+      text-rendering: auto;
+      transition: all .65s linear 0s;
+      text-align: center;
+      transition: all 1s cubic-bezier(.99,.82,.11,1.41);
+  }
+
+  .text{
+
+    text-align: center;
+  }
+.mg_service{
+margin: 10px;
+
+}
+
+  @media (min-width: 1200px)
+  .col-lg-3 {
+      width: 25%;
+  }  
